@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body >
+   
+    <div class="stats" id="stat-window">
+      <div class="stats-block" id="stats">
+        <h1> Статистика последнего запуска страницы </h1>
+        <a> Дата и Время<a> <a id="time"> 00:00 </a><br>
+        <a> Загрузка <a> <a id="load"> 0 </a><br>
+        <a> Выгрузка <a> <a id="unload"> 0 </a>
+      </div>
+    </div>
+
+    <div class="wrapper">
+      <div class="desktop">
+        <div class="desktop-item" draggable="true"> 
+          <img src='./img/xp-icons/My Documents.png'> 
+          <a> My Documents </a>
+        </div>
+        <div class="desktop-item" draggable="true"> 
+          <img src='./img/xp-icons/My Computer.png'> 
+          <a> My Computer </a>
+        </div>
+        <div class="desktop-item" draggable="true"> 
+          <img src='./img/xp-icons/My Network Places.png'> 
+          <a> My Network Places </a>
+        </div>
+        <div class="desktop-item" draggable="true"> 
+          <img src='./img/xp-icons/Internet Explorer 6.png'> 
+          <a> Internet Explorer 6 </a>
+        </div>
+        <div class="desktop-item" draggable="true"> 
+          <img src='./img/xp-icons/Control Panel.png'> 
+          <a> Control Panel </a>
+        </div>
+        <div class="desktop-item" id="notepad" draggable="true" > 
+          <img src='./img/xp-icons/Notepad.png'> 
+          <a>Статы.txt</a>
+        </div>
+
+        <div class="desktop-item ml-auto mt-auto" draggable="true"> 
+          <img src='./img/xp-icons/Recycle Bin (empty).png'> 
+          <a> Recycle Bin </a>
+        </div>
+       
+      </div>
+      <div class="task-bar">
+        <div class="start-button">  
+          <i class="xp-logo"></i>
+          <span>START</span>
+        </div>
+        <div class="task-container">  
+          <div class="task"> <img src="./img/xp-icons/Command Prompt.png"> </div>
+          <div class="task"> <img src="./img/xp-icons/Explorer.png"> </div>
+          <div class="task"> <img src="./img/xp-icons/Internet Checkers.png"> </div>
+          <div class="task"> <img src="./img/xp-icons/Windows Media Player 10.png"> </div>
+        </div>
+        <div class="tool-bar-container"> 
+          <div class="tool"> <img src="./img/xp-icons/Security Alert.png"> </div>
+          <div class="tool"> <img src="./img/xp-icons/Wireless Network Connection.png"> </div>
+          <div class="tool"> <img src="./img/xp-icons/Bluetooth Devices.png"> </div>
+          <div class="tool"> <img src="./img/xp-icons/Windows Update.png"> </div>
+          <div class="tool"> <img src="./img/xp-icons/Volume.png"> </div>
+          <div class="tool language"> ENG </div>
+          <div class="tool datetime-container"> 
+            <a class="time"> 23:17 </a>
+            <a class="date"> 26.10.2022 </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
